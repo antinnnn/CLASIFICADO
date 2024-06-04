@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MILEI</title>
+
 </head>
 <body>
     <h1>HOLA GRUPO SOY UN HACKER Y MI INTENCION ES ASESINAR A PABLO GODOY. </h1>
+    <div class="countdown" id="countdown"></div>
+
+<script>
+// Set the initial count
+var count = 100;
+
+// Update the countdown every 1 second
+var x = setInterval(function() {
+  // Update the countdown value
+  count--;
+  
+  // Display the countdown
+  document.getElementById("countdown").innerHTML = count;
+  
+  // If the countdown reaches 0, display a message
+  if (count === 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "¡La cuenta regresiva ha terminado!";
+  }
+}, 1000);
+</script>
+
 </body>
+
 </html>
