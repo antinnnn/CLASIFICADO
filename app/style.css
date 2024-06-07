@@ -3,31 +3,31 @@
     height: 200px;
     background-color: rgb(0, 0, 0);
     justify-content: space-between;
-    
+    border: 1px solid green;
 }
     
 
 .navegacion__logo {
     height: 200px;
-    width: 1920px;
+    max-width: 1fr;
+    min-width: 100px;
     align-self: center;
-    min-width: 200px;
-
 }
 
 
 .recursos {
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid green;
 }
 
 .recursos__articulos {
-    background-color: rgba(0, 0, 0, 0.952);
+    background-color: rgb(0, 0, 0);
     flex-grow: 4;
 }
 
 .recursos__adicionales {
-    background-color: rgba(0, 0, 0, 0.925);
+    background-color: rgb(0, 0, 0);
     width: 300px;
     flex-grow: 1;
 }
@@ -57,27 +57,32 @@
 }
 
 .integrantes {
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: rgb(0, 0, 0);
     text-align: center;
+    border: 1px solid green;
 }
 
 .integrantes__staff {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 50px;  
+    margin-top: 50px; 
+    
 }
 
 .integrantes__staff--uno {
     order: 1; 
+    border: 2px solid green;
 }
 
 .integrantes__staff--dos {
     order: 2;
+    border: 2px solid green;
 }
 
 .integrantes__staff--tres {
     order: 3;
+    border: 2px solid green;
 }
 
 .integrantes__staff--cuatro {
