@@ -3,6 +3,7 @@
     height: 200px;
     background-color: rgb(0, 0, 0);
     justify-content: space-between;
+    
 }
     
 
@@ -10,6 +11,7 @@
     height: 200px;
     width: 1920px;
     align-self: center;
+    min-width: 200px;
 
 }
 
