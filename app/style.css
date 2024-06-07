@@ -1,4 +1,102 @@
- .countdown {
-    font-size: 48px;
-        text-align: center;
- }
+.navegacion {
+    display: flex;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+    
+
+.navegacion__logo {
+    height: 200px;
+    width: 1920px;
+    align-self: center;
+
+}
+
+
+.recursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recursos__articulos {
+    background-color: rgba(0, 0, 0, 0.952);
+    flex-grow: 4;
+}
+
+.recursos__adicionales {
+    background-color: rgba(0, 0, 0, 0.925);
+    width: 300px;
+    flex-grow: 1;
+}
+
+.recursos__title {
+    display: flex;
+    text-decoration: underline;
+    font-size: 30px;
+    justify-content: center;
+    
+}
+
+.recursos__parrafo {
+    padding: 20px;
+}
+
+.recursos__parrafo--izq {
+    text-align: center;
+}
+
+.recursos__parrafo--centro {
+    text-align: center;
+}
+
+.recursos__parrafo--der {
+    text-align: center;
+}
+
+.integrantes {
+    background-color: rgba(0, 0, 0, 0.904);
+    text-align: center;
+}
+
+.integrantes__staff {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;  
+}
+
+.integrantes__staff--uno {
+    order: 1; 
+}
+
+.integrantes__staff--dos {
+    order: 2;
+}
+
+.integrantes__staff--tres {
+    order: 3;
+}
+
+.integrantes__staff--cuatro {
+    order: 4;
+}
+
+.integrantes__staff--cinco {
+    order: 5;
+}
+
+/*ELEMENTOS GRID*/
+
+.grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: 200px 200px 200px;
+    border: 1px solid black;
+    background-color: gray;
+}
+
+.grid_item {
+    border: 2px solid black;
+    background-color: aquamarine;
+}
